@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.nav{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    margin-left: 2%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    height: 100%;
+    width: 90%;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 18%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Orbitron';
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lis a:hover{
+    background-color: rgb(148, 203, 245);
+    color: white;
+}
+.lis{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Notre histoire*/
+.histoire{    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titre{
+    height: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.trait{
+    height: 5%;
+    width: 60%;
+    background-color: rgb(148, 203, 245);
+}
+.titre-text{
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+.livre{
+    height: 86%;
+    width: 100%;
+    display: flex;
+}
+.liv{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 90%;
+}
+.liv p{
+    width: 95%;
+}
+.liv img{
+    height: 100%;
+    width: 100%;
+}
+/*Partie sur la mission*/
+.mission{   height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titre-1{
+    height: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+.trait-1{
+    height: 5%;
+    width: 60%;
+    background-color: rgb(148, 203, 245);
+}
+.titre-texta{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Orbitron';
+    font-weight: bold;
+}
+.cible{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.fleche{
+    height: 100%;
+    width: 40%;
+}
+.fleche img{
+    height: 100%;
+    width: 100%;
+}
+.ci{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.ci p{
+    font-weight: bold;
+}
+/*Partie sur l'equipe*/
+.equip{
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(148, 203, 245);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.equip p{
+    width: 100%;
+    font-weight: bolder;
+}
+.titre-2{
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+}
+.trait-2{
+    height: 5%;
+    width: 60%;
+    background-color: white;
+}
+.titre-textb{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    font-family: 'Orbitron';
+}
+.eq{
+    height: 30%;
+    width: 60%;
+}
+.eq img{
+    height: 100%;
+    width: 100%;
+}
+.ip{
+    height: 50%;
+    width: 100%;
+}
+.ip h1{
+    font-family: 'Orbitron';
+}
+/*Partie sur le temignage*/
+.temoin{    height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titre-3{
+    height: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+.trait-3{
+    height: 5%;
+    width: 60%;
+    background-color: rgb(148, 203, 245);
+}
+.titre-textc{
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+.tem{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.temu{
+    height: 80%;
+    width: 25%;
+    margin-left: 2%;
+    border-radius: 15px 15px 15px 15px;
+    background: linear-gradient(to bottom, rgb(148, 203, 245), rgb(66, 111, 245));
+}
+.temu p{
+    height: 35%;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+.etoile{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.etoile i{
+    font-size: 200%;
+    color: gold;
+    margin-left: 2%;
+}
+.profil{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.rond{
+    height: 100%;
+    width: 25%;
+    border-radius: 50%;
+}
+.rond img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.temu h4{
+    height: 8%;
+    width: 100%;
+    text-align: center;
+}
+.btn1{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.btn1 button{
+    height: 60%;
+    width: 25%;
+    font-size: 110%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(66, 111, 245);
+    color: white;
+    border: none;
+}
+/* Partie sur footer */
+footer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+.foot{
+    height: 100%;
+    width: 25%;
+}
+.foot img{
+    height: 100%;
+    width: 100%;
+}
+.elements{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.elements .h-1{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-family: 'Orbitron';
+}
+.listes{
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.list{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+.list ul{
+    list-style-type: none;
+}
+.a-2{
+    text-decoration: none;
+    color: black;
+}

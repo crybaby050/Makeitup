@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron';
+}
+.princ{
+    width: 100%;
+}
+.nav{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    margin-left: 2%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    height: 100%;
+    width: 90%;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 18%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 3%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lis{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lis a:hover{
+    background-color: rgb(148, 203, 245);
+    color: white;
+}
+/*Partie sur la connection*/
+.rese{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.image{
+    height: 100%;
+    width: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.res{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.res h1{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.face{
+    height: 8%;
+    width: 60%;
+    display: flex;
+}
+.linke{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+.linke a{
+    text-decoration: none;
+}
+.log{
+    height: 100%;
+    width: 15%;
+    display: flex;
+}
+.log i{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+}
+.insta{
+    height: 8%;
+    width: 60%;
+    display: flex;
+}.twit{
+    height: 8%;
+    width: 60%;
+    display: flex;
+}
+/* Partie sur footer */
+footer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+.foot{
+    height: 100%;
+    width: 25%;
+}
+.foot img{
+    height: 100%;
+    width: 100%;
+}
+.elements{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.elements .h-1{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.listes{
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.list{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul{
+    list-style-type: none;
+}
+.a-2{
+    text-decoration: none;
+    color: black;
+}

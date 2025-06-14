@@ -1,0 +1,398 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.nav{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    margin-left: 2%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    height: 100%;
+    width: 90%;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 18%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Orbitron';
+}
+.link{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lis a:hover{
+    background-color: rgb(148, 203, 245);
+    color: white;
+}
+.lis{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Partie sur l'introduction*/
+.intro{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.intro h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+.image{
+    height: 80%;
+    width: 70%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.titre{
+    height: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.trait{
+    height: 5%;
+    width: 60%;
+    background-color: rgb(148, 203, 245);
+}
+.titre-text{
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+/*Format*/
+.forma{
+    height: 180vh;
+    width: 100%;
+    background-color: rgb(148, 203, 245);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.forma h2{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+.ate{
+    height: 40%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vu{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.vu h3{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+.vu p{
+    width: 100%;
+    margin-top: -10%;
+    font-size: 110%;
+}
+.lo{
+    height: 90%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+.lo img{
+    height: 80%;
+    width: 100%;
+}
+.btn{
+    height: 8%;
+    width: 100%;
+}
+.btn button{
+    height: 90%;
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(148, 203, 245);
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(148, 203, 245);
+}
+.lo-1{
+    height: 90%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+.lo-1 img{
+    height: 80%;
+    width: 80%;
+}
+.btn-1{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: rgb(148, 203, 245);
+}
+.btn-1 button{
+    height: 90%;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(148, 203, 245);
+    margin-right: 16%;
+}
+.titrea{
+    height: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.traita{
+    height: 5%;
+    width: 60%;
+    background-color: rgb(148, 203, 245);
+}
+.titre-texta{
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+/*Atelier*/
+.atel{
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(148, 203, 245);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.atel h2{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+.at{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vue{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.vue h3{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+.vue p{
+    width: 100%;
+    font-size: 110%;
+}
+.loo{
+    height: 80%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.loo img{
+    height: 80%;
+    width: 80%;
+}
+.btnb{
+    height: 10%;
+    width: 100%;
+}
+.btnb a{
+    text-decoration: none;
+    color: rgb(148, 203, 245);
+}
+.btnb button{
+    height: 90%;
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(148, 203, 245);
+}
+.loo-1{
+    height: 90%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+.loo-1 img{
+    height: 80%;
+    width: 80%;
+}
+.btn-2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: rgb(148, 203, 245);
+}
+.btn-2 button{
+    height: 90%;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(148, 203, 245);
+    margin-right: 16%;
+}
+.titrea{
+    height: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.traita{
+    height: 5%;
+    width: 60%;
+    background-color: rgb(148, 203, 245);
+}
+.titre-texta{
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+/* Partie sur footer */
+footer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Orbitron';
+}
+.foot{
+    height: 100%;
+    width: 25%;
+}
+.foot img{
+    height: 100%;
+    width: 100%;
+}
+.elements{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.elements .h-1{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.listes{
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.list{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul{
+    list-style-type: none;
+}
+.a-2{
+    text-decoration: none;
+    color: black;
+}
